@@ -1,7 +1,7 @@
 import os
 import sys
 from termcolor import colored
-from Crypto.Cipher import AES
+from Crypto.Cipher import AES  # Advanced Encryption Standard ==> Symmetric Algorithm
 from Crypto.Random import get_random_bytes
 from Crypto.Hash import SHA256
 from azure.storage.blob import BlobServiceClient
